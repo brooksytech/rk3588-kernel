@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/built-in.a := echo >/dev/null; rm -f net/bridge/netfilter/built-in.a; llvm-ar cDPrST net/bridge/netfilter/built-in.a net/bridge/netfilter/ebtables.o net/bridge/netfilter/ebtable_broute.o

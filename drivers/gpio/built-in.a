@@ -1,0 +1,19 @@
+!<thin>
+//                                              130       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-of.o/
+gpiolib-cdev.o/
+gpiolib-sysfs.o/
+gpio-max96752f.o/
+gpio-rockchip.o/
+
+/0              0           0     0     644     819360    `
+/11             0           0     0     644     194656    `
+/29             0           0     0     644     165440    `
+/47             0           0     0     644     205744    `
+/61             0           0     0     644     392616    `
+/77             0           0     0     644     238984    `
+/94             0           0     0     644     159560    `
+/112            0           0     0     644     245544    `

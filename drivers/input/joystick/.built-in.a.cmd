@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/built-in.a := echo >/dev/null; rm -f drivers/input/joystick/built-in.a; llvm-ar cDPrST drivers/input/joystick/built-in.a drivers/input/joystick/adc-joysticks.o drivers/input/joystick/xpad.o

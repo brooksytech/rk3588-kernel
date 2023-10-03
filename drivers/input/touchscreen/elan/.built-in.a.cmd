@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/elan/built-in.a := echo >/dev/null; rm -f drivers/input/touchscreen/elan/built-in.a; llvm-ar cDPrST drivers/input/touchscreen/elan/built-in.a drivers/input/touchscreen/elan/elan_ts.o drivers/input/touchscreen/elan/elan_update.o drivers/input/touchscreen/elan/elan_tool.o

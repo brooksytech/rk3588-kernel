@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: GPL-2.0
+menu "Android"
+
+if ANDROID
+
+config ASHMEM
+	bool "Enable the Anonymous Shared Memory Subsystem"
+	depends on SHMEM
+	help
+	  The ashmem subsystem is a new shared memory allocator, similar to
+	  POSIX SHM but with different behavior and sporting a simpler
+	  file-based API.
+
+	  It is, in theory, a good memory allocator for low-memory devices,
+	  because it can discard shared memory units when under memory pressure.
+
+config DEBUG_KINFO
+	bool "Debug Kernel Information Support"
+	depends on KALLSYMS
+	help
+	  This supports kernel information backup for bootloader usage.
+	  Specifics:
+	   - The kallsyms symbols for unwind_backtrace
+	   - Page directory pointer
+	   - UTS_RELEASE
+	   - BUILD_INFO(ro.build.fingerprint)
+
+config ANDROID_TIMED_OUTPUT
+	bool "Timed output class driver"
+	default y
+
+config ANDROID_TIMED_GPIO
+	tristate "Android timed gpio driver"
+	depends on GPIOLIB || COMPILE_TEST
+	depends on ANDROID_TIMED_OUTPUT
+	default n
+    help
+	  Unlike generic gpio is to allow programs to access and manipulate gpio
+	  registers from user space, timed output/gpio is a system to allow changing
+	  a gpio pin and restore it automatically after a specified timeout.
+
+source "drivers/staging/android/ion/Kconfig"
+
+source "drivers/staging/android/fiq_debugger/Kconfig"
+
+endif # if ANDROID
+
+endmenu

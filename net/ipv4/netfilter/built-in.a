@@ -1,0 +1,40 @@
+!<thin>
+//                                              304       `
+nf_defrag_ipv4.o/
+nf_socket_ipv4.o/
+nf_tproxy_ipv4.o/
+nf_log_ipv4.o/
+nf_reject_ipv4.o/
+nf_nat_h323.o/
+nf_nat_pptp.o/
+ip_tables.o/
+iptable_filter.o/
+iptable_mangle.o/
+iptable_nat.o/
+iptable_raw.o/
+iptable_security.o/
+ipt_ah.o/
+ipt_rpfilter.o/
+ipt_REJECT.o/
+arp_tables.o/
+arpt_mangle.o/
+arptable_filter.o/
+/0              0           0     0     644     405056    `
+/18             0           0     0     644     411032    `
+/36             0           0     0     644     406584    `
+/54             0           0     0     644     400792    `
+/69             0           0     0     644     401352    `
+/87             0           0     0     644     451712    `
+/102            0           0     0     644     411512    `
+/117            0           0     0     644     585592    `
+/130            0           0     0     644     379904    `
+/148            0           0     0     644     377904    `
+/166            0           0     0     644     385248    `
+/181            0           0     0     644     375472    `
+/196            0           0     0     644     373568    `
+/216            0           0     0     644     278872    `
+/226            0           0     0     644     384840    `
+/242            0           0     0     644     375936    `
+/256            0           0     0     644     556128    `
+/270            0           0     0     644     363952    `
+/285            0           0     0     644     278544    `

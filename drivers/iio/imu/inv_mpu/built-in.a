@@ -1,0 +1,25 @@
+!<thin>
+//                                              280       `
+inv_mpu_common.o/
+inv_mpu_ring.o/
+inv_mpu_timestamp.o/
+inv_mpu_dts.o/
+icm43600/inv_mpu_init_43600.o/
+icm43600/inv_mpu_core_43600.o/
+icm43600/inv_mpu_parsing_43600.o/
+icm43600/inv_mpu_setup_43600.o/
+icm43600/inv_mpu_misc_43600.o/
+icm43600/inv_mpu_selftest_43600.o/
+inv_mpu_i2c.o/
+
+/0              0           0     0     644     219072    `
+/18             0           0     0     644     225376    `
+/34             0           0     0     644     194040    `
+/55             0           0     0     644     244896    `
+/70             0           0     0     644     204056    `
+/101            0           0     0     644     270848    `
+/132            0           0     0     644     218584    `
+/166            0           0     0     644     220504    `
+/198            0           0     0     644     200104    `
+/229            0           0     0     644     221056    `
+/264            0           0     0     644     217312    `

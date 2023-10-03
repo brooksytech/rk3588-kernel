@@ -1,0 +1,147 @@
+!<thin>
+//                                              2212      `
+mali/platform/rk/rk.o/
+mali/linux/mali_osk_atomics.o/
+mali/linux/mali_osk_irq.o/
+mali/linux/mali_osk_wq.o/
+mali/linux/mali_osk_locks.o/
+mali/linux/mali_osk_wait_queue.o/
+mali/linux/mali_osk_low_level_mem.o/
+mali/linux/mali_osk_math.o/
+mali/linux/mali_osk_memory.o/
+mali/linux/mali_osk_misc.o/
+mali/linux/mali_osk_mali.o/
+mali/linux/mali_osk_notification.o/
+mali/linux/mali_osk_time.o/
+mali/linux/mali_osk_timers.o/
+mali/linux/mali_osk_bitmap.o/
+mali/linux/mali_memory.o/
+mali/linux/mali_memory_os_alloc.o/
+mali/linux/mali_memory_external.o/
+mali/linux/mali_memory_block_alloc.o/
+mali/linux/mali_memory_swap_alloc.o/
+mali/linux/mali_memory_manager.o/
+mali/linux/mali_memory_virtual.o/
+mali/linux/mali_memory_util.o/
+mali/linux/mali_memory_cow.o/
+mali/linux/mali_memory_defer_bind.o/
+mali/linux/mali_ukk_mem.o/
+mali/linux/mali_ukk_gp.o/
+mali/linux/mali_ukk_pp.o/
+mali/linux/mali_ukk_core.o/
+mali/linux/mali_ukk_soft_job.o/
+mali/linux/mali_ukk_timeline.o/
+mali/linux/mali_devfreq.o/
+mali/common/mali_pm_metrics.o/
+mali/common/mali_kernel_core.o/
+mali/linux/mali_kernel_linux.o/
+mali/common/mali_session.o/
+mali/linux/mali_device_pause_resume.o/
+mali/common/mali_kernel_vsync.o/
+mali/linux/mali_ukk_vsync.o/
+mali/linux/mali_kernel_sysfs.o/
+mali/common/mali_mmu.o/
+mali/common/mali_mmu_page_directory.o/
+mali/common/mali_mem_validation.o/
+mali/common/mali_hw_core.o/
+mali/common/mali_gp.o/
+mali/common/mali_pp.o/
+mali/common/mali_pp_job.o/
+mali/common/mali_gp_job.o/
+mali/common/mali_soft_job.o/
+mali/common/mali_scheduler.o/
+mali/common/mali_executor.o/
+mali/common/mali_group.o/
+mali/common/mali_dlbu.o/
+mali/common/mali_broadcast.o/
+mali/common/mali_pm.o/
+mali/common/mali_pmu.o/
+mali/common/mali_user_settings_db.o/
+mali/common/mali_kernel_utilization.o/
+mali/common/mali_control_timer.o/
+mali/common/mali_l2_cache.o/
+mali/common/mali_timeline.o/
+mali/common/mali_timeline_fence_wait.o/
+mali/common/mali_timeline_sync_fence.o/
+mali/common/mali_spinlock_reentrant.o/
+mali/common/mali_pm_domain.o/
+mali/linux/mali_osk_pm.o/
+mali/linux/mali_pmu_power_up_down.o/
+mali/__malidrv_build_info.o/
+mali/linux/mali_memory_dma_buf.o/
+mali/linux/mali_memory_secure.o/
+mali/linux/mali_sync.o/
+mali/linux/mali_internal_sync.o/
+
+/0              0           0     0     644     287400    `
+/23             0           0     0     644     17496     `
+/54             0           0     0     644     11872     `
+/81             0           0     0     644     25320     `
+/107            0           0     0     644     976       `
+/136            0           0     0     644     14216     `
+/170            0           0     0     644     215744    `
+/207            0           0     0     644     3928      `
+/235            0           0     0     644     9264      `
+/265            0           0     0     644     180624    `
+/293            0           0     0     644     214792    `
+/321            0           0     0     644     23360     `
+/357            0           0     0     644     8928      `
+/385            0           0     0     644     10752     `
+/415            0           0     0     644     27640     `
+/445            0           0     0     644     237192    `
+/471            0           0     0     644     275232    `
+/506            0           0     0     644     191168    `
+/541            0           0     0     644     224792    `
+/579            0           0     0     644     343608    `
+/616            0           0     0     644     272448    `
+/650            0           0     0     644     12032     `
+/684            0           0     0     644     216160    `
+/715            0           0     0     644     246104    `
+/745            0           0     0     644     221896    `
+/782            0           0     0     644     281776    `
+/809            0           0     0     644     227048    `
+/835            0           0     0     644     219760    `
+/861            0           0     0     644     289296    `
+/889            0           0     0     644     234192    `
+/921            0           0     0     644     249688    `
+/953            0           0     0     644     267064    `
+/980            0           0     0     644     205808    `
+/1011           0           0     0     644     280536    `
+/1043           0           0     0     644     321176    `
+/1075           0           0     0     644     196680    `
+/1103           0           0     0     644     6296      `
+/1142           0           0     0     644     4600      `
+/1175           0           0     0     644     194960    `
+/1204           0           0     0     644     312640    `
+/1236           0           0     0     644     230248    `
+/1260           0           0     0     644     41760     `
+/1299           0           0     0     644     7032      `
+/1334           0           0     0     644     8968      `
+/1362           0           0     0     644     226544    `
+/1385           0           0     0     644     236008    `
+/1408           0           0     0     644     226104    `
+/1435           0           0     0     644     235872    `
+/1462           0           0     0     644     224664    `
+/1491           0           0     0     644     340352    `
+/1521           0           0     0     644     412304    `
+/1550           0           0     0     644     274328    `
+/1576           0           0     0     644     209192    `
+/1601           0           0     0     644     202192    `
+/1631           0           0     0     644     276232    `
+/1654           0           0     0     644     16896     `
+/1678           0           0     0     644     24944     `
+/1715           0           0     0     644     218752    `
+/1754           0           0     0     644     196496    `
+/1788           0           0     0     644     50368     `
+/1817           0           0     0     644     264064    `
+/1846           0           0     0     644     199728    `
+/1886           0           0     0     644     196576    `
+/1926           0           0     0     644     13352     `
+/1965           0           0     0     644     204296    `
+/1995           0           0     0     644     181648    `
+/2021           0           0     0     644     5384      `
+/2058           0           0     0     644     3440      `
+/2087           0           0     0     644     238280    `
+/2121           0           0     0     644     205704    `
+/2154           0           0     0     644     224672    `
+/2178           0           0     0     644     261328    `

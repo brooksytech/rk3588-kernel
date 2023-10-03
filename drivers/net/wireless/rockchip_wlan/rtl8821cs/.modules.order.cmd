@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rockchip_wlan/rtl8821cs/modules.order := {   echo drivers/net/wireless/rockchip_wlan/rtl8821cs/8821cs.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/rockchip_wlan/rtl8821cs/modules.order

@@ -1,0 +1,25 @@
+!<thin>
+//                                              228       `
+pcie-rockchip-host.o/
+pcie-rockchip.o/
+dwc/pcie-designware.o/
+dwc/pcie-designware-host.o/
+dwc/pcie-dw-rockchip.o/
+dwc/pcie-al.o/
+dwc/pcie-dw-rockchip-acpi.o/
+dwc/pcie-hisi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+
+/0              0           0     0     644     368120    `
+/22             0           0     0     644     263464    `
+/39             0           0     0     644     284000    `
+/62             0           0     0     644     215968    `
+/90             0           0     0     644     580304    `
+/114            0           0     0     644     968       `
+/129            0           0     0     644     984       `
+/158            0           0     0     644     968       `
+/175            0           0     0     644     976       `
+/195            0           0     0     644     976       `
+/214            0           0     0     644     968       `

@@ -1,0 +1,1 @@
+cmd_lib/crypto/built-in.a := echo >/dev/null; rm -f lib/crypto/built-in.a; llvm-ar cDPrST lib/crypto/built-in.a lib/crypto/chacha.o lib/crypto/libchacha.o lib/crypto/aes.o lib/crypto/arc4.o lib/crypto/des.o lib/crypto/poly1305-donna64.o lib/crypto/poly1305.o lib/crypto/sha256.o

@@ -1,0 +1,39 @@
+!<thin>
+//                                              346       `
+power_supply_core.o/
+power_supply_sysfs.o/
+power_supply_leds.o/
+power_supply_hwmon.o/
+test_power.o/
+cw2015_battery.o/
+cw2017_battery.o/
+cw221x_battery.o/
+rockchip_charger_manager.o/
+bq25700_charger.o/
+bq25890_charger.o/
+sc8551_charger.o/
+sc89890_charger.o/
+rk817_battery.o/
+rk817_charger.o/
+rk818_battery.o/
+rk818_charger.o/
+sgm41542_charger.o/
+
+/0              0           0     0     644     326592    `
+/21             0           0     0     644     121760    `
+/43             0           0     0     644     90872     `
+/64             0           0     0     644     111584    `
+/86             0           0     0     644     205248    `
+/100            0           0     0     644     214664    `
+/118            0           0     0     644     205472    `
+/136            0           0     0     644     223472    `
+/154            0           0     0     644     330928    `
+/182            0           0     0     644     423864    `
+/201            0           0     0     644     346096    `
+/220            0           0     0     644     335032    `
+/238            0           0     0     644     323576    `
+/257            0           0     0     644     647088    `
+/274            0           0     0     644     372120    `
+/291            0           0     0     644     801968    `
+/308            0           0     0     644     412344    `
+/325            0           0     0     644     318832    `

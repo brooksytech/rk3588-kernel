@@ -1,0 +1,3 @@
+drivers/net/wireless/rockchip_wlan/rkwifi/bcmdhd/dhd_static_buf.ko
+drivers/net/wireless/rockchip_wlan/rkwifi/bcmdhd/bcmdhd.ko
+drivers/net/wireless/rockchip_wlan/rtl8821cs/8821cs.ko

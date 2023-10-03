@@ -1,0 +1,23 @@
+!<thin>
+//                                              188       `
+of_touchscreen.o/
+elan/elan_ts.o/
+elan/elan_update.o/
+elan/elan_tool.o/
+gsl3673.o/
+gsl_point_id.o/
+gslx680_pad.o/
+gt9xx_v282/gt9xx.o/
+gt9xx_v282/gt9xx_update.o/
+gt9xx_v282/goodix_tool.o/
+
+/0              0           0     0     644     163392    `
+/18             0           0     0     644     463536    `
+/34             0           0     0     644     404784    `
+/54             0           0     0     644     257768    `
+/72             0           0     0     644     368024    `
+/83             0           0     0     644     148760    `
+/99             0           0     0     644     425048    `
+/114            0           0     0     644     534888    `
+/134            0           0     0     644     349896    `
+/161            0           0     0     644     285720    `
